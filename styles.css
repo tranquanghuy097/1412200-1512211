@@ -8,7 +8,7 @@ nav{
 }
 
 #category{
-    overflow-x: auto;
+    overflow: auto;
 }
 
 div.specialnews{
@@ -27,6 +27,14 @@ a.news{
     text-decoration: none;
     color: black;
     margin-bottom: 5px;
+}
+
+img.captioned{
+    opacity: 0.5;
+}
+
+img.captioned:hover{
+    opacity: 1.0;
 }
 
 img.thumbnails{
