@@ -9,13 +9,14 @@ function Validate()
 function addItem()
 {
     var div = document.createElement('div');
-    div.className = "carousel-item red white-text";
-    div.href = "#a";
-    var h = document.createElement('h2');
-    h2.value = "Fifth panel";
-    div.appendChild(h2);
-    var list = document.getElementById('items');
-    list.appendChild(div);
+    div.className = "caption left-align";
+    var img = document.createElement('img');
+    img.src = "img/1.jpg";
+    var li = document.createElement('li');
+    div.appendChild(img);
+    li.appendChild(div);
+    var slide = document.getElementById("slides");
+    slide.appendChild(li);
 }
 
 addItem();
